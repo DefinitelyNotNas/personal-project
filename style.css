@@ -1,0 +1,14 @@
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 200 to 800 */
+
+.newsreader-italic {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+}
+
+
+.main-nav li {
+    display: inline-block;
+}
