@@ -109,7 +109,7 @@ main {
 }
 
 #img {
-     width: 100%;
+    width: 100%;
     max-height: 265px;
     aspect-ratio:inherit;
     margin: 0% 10%;
@@ -144,3 +144,53 @@ main {
     justify-content: center;
 }
 
+
+
+/* ABOUT ME PAGE */
+
+
+.container,
+.body,
+.body:nth-of-type(2),
+.about-img,
+.about-img:nth-of-type(2) {
+    box-sizing: border-box;
+}
+
+
+.head1 {
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ .body {
+    display: inline-block;
+    margin: 3% 0;
+}
+
+.body:nth-of-type(2) {
+    direction: rtl;
+}
+
+.about-img {
+    float: inline-start;
+    width: 25%;
+    aspect-ratio:inherit;
+    margin: 0% 10%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.about-img:nth-of-type(2) {
+    float: right;
+}
+
+#about-span {
+    font-size: larger;
+}
