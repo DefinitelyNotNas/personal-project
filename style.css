@@ -8,6 +8,11 @@ h1 {
     color: #426B1F;
 }
 
+h2 {
+    margin-top: 10%;
+    font-size: 80%;
+}
+
 
 * {
     box-sizing: border-box;
@@ -55,6 +60,7 @@ h1 {
     padding: 6px;
     width: 200px;
     height: 150px;
+    font-size: smaller;
   }
 
   
@@ -90,6 +96,7 @@ a {
 
 .box {
     padding-left: 6%;
+
 }
 
 /* MAIN */
@@ -97,17 +104,20 @@ a {
 .image-container{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 .image-left,
 .image-right {
-    width: .5;
+    flex: 1;
 
 }
 
 .image-center {
-    width: 1.5
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
 }
 
 
@@ -116,14 +126,15 @@ a {
 .flex {
     display: flex;
     flex-direction: row;
-    width: 1;
+    flex: 1;
     justify-content: space-between;
 }
 
 #img {
-    margin-left: 0%;
-    margin-right: 5%;
-    aspect-ratio: .8 / 1;
+
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
     border: 1px;
     border-style: solid;
     border-color: black;
