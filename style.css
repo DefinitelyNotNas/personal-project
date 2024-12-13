@@ -13,15 +13,7 @@ h2 {
     font-size: 150%;
 }
 
-/* 
-* {
-    box-sizing: border-box;
-}
- */
-
-/* DESIGN */
-/* <uniquifier>: Use a unique and descriptive class name
-<weight>: Use a value from 200 to 800 */
+/* FONTS */
 
 .p-main {
   font-family: "Newsreader", serif;
@@ -41,8 +33,6 @@ h2 {
     color: #426B1F;
   }
 
-
-
 .alt-text {
     font-size: smaller;
     color: black;
@@ -52,8 +42,6 @@ h2 {
     font-weight: 0;
     font-style: regular;
 }
-
-
 
 .rounded {
     color: white;
@@ -67,12 +55,11 @@ h2 {
 
   
 
-/* HEADER */
+/* HEADERS, LINKS, BOXES */
 
 a {
     text-decoration: none;
 }
-
 
 .persistent-header {
     background-color: white;
@@ -100,8 +87,6 @@ a {
     font-size:x-large;
 }
 
-
-
 .box {
     padding-left: 6%;
 ;
@@ -116,8 +101,6 @@ main {
     background-color: white;
 }
 
-
-
 .image-container{
     display: flex;
     width: 40%;
@@ -125,42 +108,15 @@ main {
     margin: 0 auto; 
 }
 
-
-.image-center {
-    
-    width: 100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-
-
 #img {
-
-    /* max-width: 75%;
-    height: auto;
-    max-height: 27.7%;
-    margin: 0 auto;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    object-fit: contain; */
-
-    width: 100%;
+     width: 100%;
     max-height: 265px;
     aspect-ratio:inherit;
     margin: 0% 10%;
     border: 1px;
     border-style: solid;
     border-color: black;
-
-
-
 }
-
-
 
 .flex {
     display: flex;
@@ -168,9 +124,6 @@ main {
     flex: 1;
     justify-content: space-between;
 }
-
-
-
 
 /* FOOTER */
 .sticky-footer {
@@ -191,15 +144,3 @@ main {
     justify-content: center;
 }
 
-
-
-
-
-/* psuedo */
-
-/* 
-- have everything in a div
-- then make 3 total divs 
-- keep main content in middle div
-- give outer "spacing" divs a width of 1
-- give inner "content" div a width of 2  */
