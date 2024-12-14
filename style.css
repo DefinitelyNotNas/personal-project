@@ -194,3 +194,7 @@ main {
 #about-span {
     font-size: larger;
 }
+
+a.italic:hover {
+    color: #78655a;
+}
