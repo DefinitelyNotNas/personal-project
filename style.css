@@ -198,3 +198,96 @@ main {
 a.italic:hover {
     color: #78655a;
 }
+
+
+/* PORTFOLIO */
+
+
+
+.text-container {
+    display: flex;
+    margin-top: 14%;
+    margin-bottom: 0%;
+    justify-content: space-between;
+
+
+    
+}
+
+.text-container p {
+    direction: ltr;
+    text-align: center;
+    margin-top: 5.5%;
+    justify-content: center;
+}
+
+main hr {
+    margin-top: 0%;
+    border-top:  #E6E6E6;
+}
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-content: center;
+}
+
+.card {
+    flex-grow: 1;
+    aspect-ratio: 3/2;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    max-width: 30%;
+    overflow: hidden;
+    background-color: #FAFAF5;
+    border: #E6E6E6 solid 1px;
+    border-radius: 5%;
+    padding-bottom: 6.4%;
+
+}
+
+.project-img {
+    max-height: 66%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.project-info * {
+    margin: 0%;
+    padding: 10%;
+
+}
+
+.project-title {
+    height: 5%;
+    margin: 0%;
+    margin-top:3%;
+}
+
+.project-description {
+
+    margin: 0.5% 0% 2%;
+    font-size: x-small;
+    color: #78655a;
+
+}
+
+.project-author {
+    margin: 0%;
+    margin-bottom: 2%;
+    font-size: xx-small;
+    color: #6D6D6D;
+}
+
+.project-info,
+.project-title,
+.project-description,
+.project-author {
+    padding-left: 6%;
+}
+
