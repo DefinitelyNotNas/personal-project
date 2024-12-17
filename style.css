@@ -247,6 +247,7 @@ main hr {
     border: #E6E6E6 solid 1px;
     border-radius: 5%;
     padding-bottom: 6.4%;
+    position: relative;
 
 }
 
@@ -282,6 +283,9 @@ main hr {
     margin-bottom: 2%;
     font-size: xx-small;
     color: #6D6D6D;
+    position: absolute;
+    bottom: 0;
+    padding-right: 3%;
 }
 
 .project-info,
