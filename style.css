@@ -232,6 +232,7 @@ main hr {
     flex-wrap: wrap;
     gap: .5rem;
     justify-content: center;
+    height: 35vh;
 }
 
 .card {
