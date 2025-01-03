@@ -334,11 +334,13 @@ main hr {
 
 .form-email input:focus{
     background-color: white;
+    z-index: 1;
 }
 
 
 .form-name input:focus {
     background-color: white;
+    z-index: 1;
     
 
 }
@@ -346,6 +348,7 @@ main hr {
 #submit-button {
     display: flex;
     justify-content: center;
+    z-index: auto;
 }
 
 #submit-button * {
