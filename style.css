@@ -158,10 +158,6 @@ main {
 }
 
 
-.head1 {
-
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -235,7 +231,7 @@ main hr {
 }
 
 .card {
-    flex-grow: 1;
+    flex: 1 1 10vw;
     aspect-ratio: 3/2;
     margin: 0;
     display: flex;
@@ -260,6 +256,7 @@ main hr {
 
 .project-info {
     position: relative;
+    
 }
 
 .project-info * {
@@ -299,3 +296,75 @@ main hr {
     padding-left: 6%;
 }
 
+/* CONTACT PAGE */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: #E6E6E6;
+    padding: 1rem 0;
+    border-radius: 0.6rem;
+    /* position: absolute;
+    right: 0; */
+}
+
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17%;
+}
+
+
+.form-name, 
+.form-email {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    text-decoration: none;font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
+}
+
+  
+
+.form-email input:focus{
+    background-color: white;
+    z-index: 1;
+}
+
+
+.form-name input:focus {
+    background-color: white;
+    z-index: 1;
+    
+
+}
+
+#submit-button {
+    display: flex;
+    justify-content: center;
+    z-index: auto;
+}
+
+#submit-button * {
+    background-color: #426B1F !important;
+    font-family: "Newsreader", sans-serif;
+    color: white;
+    margin: 0rem;
+}
+
+.c-h2 * {
+    margin-bottom: 0.1%; 
+    font-size: xx-large
+}
+
+.c-p * {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}

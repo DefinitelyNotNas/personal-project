@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Personal Project</title>
+		<link rel="stylesheet" href="../style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav class="persistent-header">
+				<h1 class="p-main" style="font-size: x-large">
+					Personal Project
+				</h1>
+				<ul class="box" style="padding-right: 5%">
+					<li><a href="../index.html" class="alt-text">Home</a></li>
+					<li>
+						<a href="../html/about-me.html" class="alt-text">About</a>
+					</li>
+					<li>
+						<a href="" class="alt-text">Contact</a>
+					</li>
+					<li>
+						<a href="../html/portfolio.html" class="rounded"
+							>Portfolio</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<div class="contact-header">
+				<div class="c-h2">
+					<h2 class="p-main">Contact Me</h2>
+				</div>
+				<div class="c-p">
+					<p class="italic">
+						nsantiago64@icloud.com <br />407-222-4276
+					</p>
+				</div>
+			</div>
+			<div class="form-container">
+				<form method="get" action="">
+					<div class="form-name">
+						Enter your name:
+						<input type="text" name="fname" />
+					</div>
+					<br />
+					<div class="form-email">
+						Enter your email:
+						<input
+							type="email"
+							pattern="^[a-zA-Z0-9_.±]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$"
+							name="email"
+						/>
+					</div>
+					<br />
+					<div id="submit-button">
+						<input type="submit" value="Submit" id="submit" />
+					</div>
+				</form>
+			</div>
+		</main>
+		<footer class="sticky-footer">
+			<!-- small bar with github, instagram, and linkedin -->
+			<nav class="flex-footer">
+				<ul class="box-2" style="padding: 0%">
+					<li>
+						<a
+							href="https://github.com/DefinitelyNotNas"
+							class="italic"
+							>github</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.instagram.com/definitelynotnas/?locale=pl&hl=af"
+							class="italic"
+							>instagram</a
+						>
+					</li>
+					<li>
+						<a
+							href="https://www.linkedin.com/in/nathanael-santiago-68a001305"
+							class="italic"
+							>linkedin</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+		<script src="../js/contact.js"></script>
+	</body>
+</html>
