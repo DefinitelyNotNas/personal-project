@@ -158,10 +158,6 @@ main {
 }
 
 
-.head1 {
-
-}
-
 .container {
     display: flex;
     flex-direction: column;
@@ -305,25 +301,67 @@ main hr {
 .form-container {
     display: flex;
     justify-content: center;
-    direction: rtl;
-    position: absolute;
-    right: 0;
-    margin-right: 11%;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: #E6E6E6;
+    padding: 1rem 0;
+    border-radius: 0.6rem;
+    /* position: absolute;
+    right: 0; */
 }
 
-.form-container form {
-    font-family: Arial, Helvetica, sans-serif;
+.contact-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17%;
 }
 
-.form-container form input {
-    margin-top: 5%;
-    font-family: Arial, Helvetica, sans-serif;
+
+.form-name, 
+.form-email {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+    text-decoration: none;font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: none;
 }
 
-.form-container form input:nth-of-type(3){
-    background-color: #426B1F;
+  
+
+.form-email input:focus{
+    background-color: white;
+}
+
+
+.form-name input:focus {
+    background-color: white;
+    
+
+}
+
+#submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+#submit-button * {
+    background-color: #426B1F !important;
+    font-family: "Newsreader", sans-serif;
     color: white;
-    
-    margin-right: 38%;
-    
+    margin: 0rem;
+}
+
+.c-h2 * {
+    margin-bottom: 0.1%; 
+    font-size: xx-large
+}
+
+.c-p * {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
 }
